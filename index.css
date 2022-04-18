@@ -1,0 +1,25 @@
+body,head{
+  background-color: lightblue;
+}
+
+h1,h3{
+  text-align : center;
+  margin-top: 160px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100dp;
+}
+
+.btn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1:hover{
+font-family : holiday;
+}

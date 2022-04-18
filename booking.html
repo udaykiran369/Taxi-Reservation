@@ -1,0 +1,72 @@
+<!– file booking.htm -->
+<HTML XMLns="http://www.w3.org/1999/xHTML"> 
+  <head> 
+    <title>Cabs</title> 
+    <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="bookingajax.js"> </script>
+  </head> 
+  <body>
+      
+      <div class="cd-fixed-bg cd-bg-1">
+			
+
+        <div id="mainform">
+            <div class="innerdiv">
+                <div class="logo">
+                    <img src="line.png" alt="#" style="width:10%;height:10%;">
+                    
+                    <img src="line.png" alt="#" style="width:10%;height:10%;">
+                </div>
+                <!-- Required div starts here -->
+                <form action="booking.php" method="post" class="enterform">
+                    <table class="box">
+                        <tr>
+                            
+                            <td><input type='text' name='name' id='name' placeholder="Name" ></td>
+                            <td><div style="color:white; background-color: blue; border-radius: 5px; text-align: center" id='namefield'></div></td>
+                        </tr>
+                        <tr>
+                            
+                            <td><input type='number' name='phone' id='phone' placeholder="Phone" ></td>
+                            <td><div style="color:white; background-color: blue; border-radius: 5px; text-align: center" id='phonefield'></div></td>
+                        </tr>
+                        <tr>
+                            
+                            <td><input type='number' name='street' id='number' placeholder="Street Number" ></td>
+                            <td><div style="color:white; background-color: blue; border-radius: 5px; text-align: center" id='numberfield'></div></td>
+                        </tr>
+                        <tr>
+                          
+                            <td><input type='text' name='address' id='street' placeholder="Street Address" ></td>
+                            <td><div style="color:white; background-color: blue; border-radius: 5px; text-align: center" id='streetfield'></div></td>
+                        </tr>
+                        <tr>
+                            
+                            <td><input type='text' name='destination' id='dest' placeholder="Destination Address" ></td>
+                            <td><div style="color:white; background-color: blue; border-radius: 5px; text-align: center" id='destfield'></div></td>
+                        </tr>
+                        <tr><p><br> </p></tr>
+                        
+                        <tr>
+                            
+                            <td>Date:<input type='date' name='date' id='date' ></td>
+                            <td><div style="color:white; background-color: blue; border-radius: 5px; text-align: center" id='datefield'></div></td>
+                        </tr>
+                        <tr>
+                            <td>Time:<input type='time' name='time' id='time' ></td>
+                            <td><div style="color:white; background-color: blue; border-radius: 5px; text-align: center" id='timefield'></div></td>
+         
+	                           <p></p>  
+                            </div>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" name="button" ></td>
+                        </tr>
+                    </table>
+                </form>    
+            </div>            
+        </div>
+    </div>
+    </body>
+</HTML>
+

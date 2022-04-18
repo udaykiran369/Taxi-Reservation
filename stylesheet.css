@@ -1,0 +1,121 @@
+html, body {
+    
+padding:0;
+background: url(taxi.jpg) no-repeat center center fixed; 
+opacity: 1;
+max-width: 100%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+
+.enterform input[type=text] {
+    
+    opacity: 0.50;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    
+}
+
+.enterform input[type = button] {
+    text-align: center;
+    margin: auto;
+    padding-left: 21px;
+    text-indent: -15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid white; /* Fallback */
+    opacity: 0.50;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    border-color: white;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    display: flex;
+margin: 0 auto;
+}
+
+.enterform input[type = button]:hover {
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding-left: 21px;
+    text-indent: -15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid white; /* Fallback */
+    background-color:green;;
+    border-color: white;
+    border-radius: 7px;
+    display: flex;
+margin: 0 auto;
+}
+
+.enterform input[type = text] {
+    padding-left: 21px;
+    text-indent: -15px;
+    margin-bottom: 0;
+    font-size: 21px;
+    line-height: 27px;
+    text-align: center;
+    border: 1px solid white; /* Fallback */
+    background: black;
+    border-color: white;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+}
+
+.enterform {
+    
+    text-align: center;
+    align-content: center;
+    
+}
+
+
+h2 {
+    
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+
+text {
+    
+    color: black;
+    
+    
+}
+
+.logo {
+    
+    text-align: center;
+    
+    
+}
+
+.box {
+    width:50%;
+    height:300px;
+
+    position:fixed;
+    margin-left:-150px; /* half of width */
+    margin-top:-150px;  /* half of height */
+    top:50%;
+    left:50%;
+}
+
+
+
+
